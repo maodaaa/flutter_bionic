@@ -21,7 +21,7 @@ Berikut adalah daftar library yang digunakan dalam proyek ini:
 Pada saat pertama dibuka aplikasi terdapat 2 Tab :
 
 - Tab pertama terdapat 4 Tampilan untuk Test 1
-- Tab kedua terdapat 4 Tampilan Untuk Test 2
+- Tab kedua terdapat 5 Tampilan Untuk Test 2 dan Test 3
 
 ## Screenshots
 

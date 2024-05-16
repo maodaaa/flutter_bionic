@@ -1,0 +1,101 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:3716518117399807000",
+      "lastPropertyId": "6:6268037442192094151",
+      "name": "ChatHistoryBox",
+      "properties": [
+        {
+          "id": "1:5204963987728180623",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8261038726490731302",
+          "name": "chatId",
+          "type": 9
+        },
+        {
+          "id": "3:9207594178493273297",
+          "name": "prompt",
+          "type": 9
+        },
+        {
+          "id": "4:2053325025073889902",
+          "name": "response",
+          "type": 9
+        },
+        {
+          "id": "5:97387615687106648",
+          "name": "imagesUrls",
+          "type": 30
+        },
+        {
+          "id": "6:6268037442192094151",
+          "name": "timestamp",
+          "type": 10
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:637863927742306669",
+      "lastPropertyId": "7:950910419302602373",
+      "name": "MessageBox",
+      "properties": [
+        {
+          "id": "1:2072698800296911677",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1170964302405123523",
+          "name": "messageId",
+          "type": 9
+        },
+        {
+          "id": "3:9092646065672154209",
+          "name": "chatId",
+          "type": 9
+        },
+        {
+          "id": "4:2209939462023938216",
+          "name": "isUser",
+          "type": 1
+        },
+        {
+          "id": "5:611303826365858446",
+          "name": "message",
+          "type": 9
+        },
+        {
+          "id": "6:6619898844230451246",
+          "name": "imagesUrls",
+          "type": 30
+        },
+        {
+          "id": "7:950910419302602373",
+          "name": "timeSent",
+          "type": 10
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:637863927742306669",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}

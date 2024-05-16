@@ -12,4 +12,6 @@ abstract class Env {
 
   @EnviedField(varName: "ANON_KEY", obfuscate: true)
   static final String anonKey = _Env.anonKey;
+  @EnviedField(varName: "GEMINI_KEY", obfuscate: true)
+  static final String geminiKey = _Env.geminiKey;
 }

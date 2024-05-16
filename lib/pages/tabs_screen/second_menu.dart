@@ -40,6 +40,13 @@ class SecondMenu extends StatelessWidget {
                 Navigator.of(context).pushNamed('/note');
               },
             ),
+            MenuButton(
+              icon: Icons.chat,
+              label: 'Chat',
+              onPressed: () {
+                Navigator.of(context).pushNamed('/chat');
+              },
+            ),
           ],
         ),
       ),

@@ -18,4 +18,13 @@ class AppConstants {
   static const String cancel = "Cancel";
   static const String deleteTitle = "Delete Contact?";
   static const String deleteDesc = "Are you sure you want to delete this contact?";
+  static const String dialogTitleDelete = "Delete Chat";
+  static const String dialogContentDelete = "Are you sure you want to delete this chat?";
+  static const String dialogActionDelete = "Delete";
+  static const String dialogTitleDeleteImg = "Delete Images";
+  static const String dialogContentDeleteImg = "Are you sure you want to delete the images?";
+  static const String dialogActionDeleteImg = "Delete";
+  static const String modelGeminiPro = "gemini-pro";
+  static const String modelGeminiProVision = "gemini-pro-vision";
+  static const String emptyHistoryPlaceholder = "No history chat found, start a new chat!";
 }

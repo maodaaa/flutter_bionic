@@ -2,6 +2,7 @@ import 'package:bionic/app_initializer.dart';
 import 'package:bionic/common/snackbar_global.dart';
 import 'package:bionic/constants/app_colors.dart';
 import 'package:bionic/pages/question_one/calendar.dart';
+import 'package:bionic/pages/question_two/chat/screens/chat_screen.dart';
 import 'package:bionic/pages/question_two/contact/contact_screen.dart';
 import 'package:bionic/pages/question_two/data/note.dart';
 import 'package:bionic/pages/question_two/login/login_screen.dart';
@@ -16,6 +17,7 @@ import 'package:bionic/pages/tabs_screen/second_menu.dart';
 import 'package:bionic/pages/question_one/sign_up.dart';
 import 'package:bionic/pages/question_one/video.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 void main() async {
   await AppInitializer.initializeApp();
@@ -27,7 +29,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       scaffoldMessengerKey: SnackbarGlobal.key,
       title: 'Flutter Test',
       theme: ThemeData(
@@ -58,6 +60,7 @@ class Home extends StatelessWidget {
         '/videos': (context) => const VideoScreen(),
         '/imagePicker': (context) => const ImagePickerScreen(),
         '/videoPicker': (context) => const VideoPickerScreen(),
+        '/chat': (context) => const ChatScreen(),
       },
       home: DefaultTabController(
         length: 2,
